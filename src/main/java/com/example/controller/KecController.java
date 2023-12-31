@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/kec")
 public class KecController {
-    @GetMapping(value = "/welcome")
+    @GetMapping
     public String kec() {
         return "welcome to kec";
     }
