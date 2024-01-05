@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class KecController {
     @GetMapping
     public String kec() {
-        return "welcome to kec";
+        return "welcome to kec - Akash";
     }
 }
